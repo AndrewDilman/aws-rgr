@@ -1,3 +1,4 @@
-lol:
-  build: .
-  container_name: my_custom_container_name
+services:
+  lol:
+    build: ./
+    container_name: my_custom_container_name
