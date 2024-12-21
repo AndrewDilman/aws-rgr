@@ -1,0 +1,4 @@
+services:
+  service:
+    build: ./
+    container_name: my-container
