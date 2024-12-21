@@ -7,7 +7,7 @@ pipeline {
             steps {
                 script {
                     echo 'Запуск нового контейнера...'
-                    sh 'docker-compose build'
+                    sh 'docker compose build'
                 }
             }
         }
